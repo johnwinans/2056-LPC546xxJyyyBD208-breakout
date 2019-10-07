@@ -5,9 +5,9 @@ EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 2
-Title ""
-Date ""
-Rev ""
+Title "ORIO Processor"
+Date "2019-10-07"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""

@@ -5,9 +5,9 @@ EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 2 2
-Title "Power Supplies"
-Date "2019-10-04"
-Rev "1"
+Title "ORIO Power"
+Date "2019-10-07"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
