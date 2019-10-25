@@ -3573,13 +3573,6 @@ Wire Wire Line
 Wire Wire Line
 	7900 4800 8650 4800
 Connection ~ 8650 4700
-Wire Wire Line
-	8650 4300 8650 4150
-Wire Wire Line
-	7900 4300 8650 4300
-Wire Wire Line
-	8650 4300 8650 4600
-Connection ~ 8650 4300
 NoConn ~ 7900 4500
 Wire Wire Line
 	8550 5100 8550 5150
@@ -3883,7 +3876,7 @@ P 8150 4400
 AR Path="/5BBE5CCD/6668148C" Ref="R?"  Part="1" 
 AR Path="/6668148C" Ref="R38"  Part="1" 
 AR Path="/5CF9559A/6668148C" Ref="R?"  Part="1" 
-F 0 "R38" V 8050 4400 50  0000 C CNN
+F 0 "R38" V 8250 4400 50  0000 C CNN
 F 1 "12K1" V 8150 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8080 4400 50  0001 C CNN
 F 3 "~" H 8150 4400 50  0001 C CNN
@@ -3957,4 +3950,13 @@ F 3 "" H 7950 8300 50  0001 C CNN
 	1    7950 8300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8650 4150 8650 4600
+Wire Wire Line
+	7900 4300 8550 4300
+Wire Wire Line
+	8550 4300 8550 4400
+Connection ~ 8550 4400
+Text Notes 2750 6550 0    50   Italic 10
+SWAP order of LEDS here and on the PIO pins!
 $EndSCHEMATC
